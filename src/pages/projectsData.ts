@@ -4,7 +4,7 @@ export const projectList: Project[] = [
     {
         title: "Fatura",
         description: "A platform where users can login and add their customers and invoices to keep record of their sales, the platform provides invoice pdf and invoice links with QR codes.",
-        demo: "",
+        demo: "https://fatura-client-one.vercel.app",
         github: "",
         technologies: [
             techs.javascript,
