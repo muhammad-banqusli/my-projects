@@ -20,6 +20,10 @@ import zodLogo from "./assets/zod.svg";
 import gruntLogo from "./assets/grunt-icon.svg";
 import gulpLogo from "./assets/gulp-js-icon.svg";
 import jestLogo from "./assets/jest-js-icon.svg";
+import shadcnLogo from "./assets/shadcn.png";
+import sanityLogo from "./assets/sanity.jpg";
+import framerMotionLogo from "./assets/framer-motion.svg";
+import nextAuthLogo from "./assets/next-auth.png";
 
 
 
@@ -46,6 +50,10 @@ interface Techs {
     jest: Tech;
     gulp: Tech;
     grunt: Tech;
+    shadcn: Tech;
+    sanity: Tech;
+    framerMotion: Tech;
+    nextAuth: Tech;
 }
 
 export const techs: Techs = {
@@ -180,6 +188,30 @@ export const techs: Techs = {
         id: 22,
         title: "Axios",
         src: axiosLogo,
+        columnId: 90002,
+    },
+    shadcn: {
+        id: 23,
+        title: "ShadCn/UI",
+        src: shadcnLogo,
+        columnId: 90002,
+    },
+    sanity: {
+        id: 24,
+        title: "Sanity",
+        src: sanityLogo,
+        columnId: 90002,
+    },
+    framerMotion: {
+        id: 25,
+        title: "Framer Motion",
+        src: framerMotionLogo,
+        columnId: 90002,
+    },
+    nextAuth: {
+        id: 26,
+        title: "Next Auth",
+        src: nextAuthLogo,
         columnId: 90002,
     },
 };

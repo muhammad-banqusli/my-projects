@@ -2,8 +2,38 @@ import { techs } from "../techs";
 
 export const projectList: Project[] = [
     {
+        title: "JavaScript Mastery Resources",
+        description: "A website to show resources for web development study.",
+        demo: "https://jsm-resources-nextjs.vercel.app/",
+        github: "https://github.com/muhammad-banqusli/jsm_resources_nextjs",
+        technologies: [
+            techs.typescript,
+            techs.next,
+            techs.tailwind,
+            techs.shadcn,
+            techs.sanity,
+        ],
+    },
+    {
+        title: "Anime Vault",
+        description:
+            "A simple website using Next JS and implementing infinite loading.",
+        demo: "https://anime-vault-ebon-five.vercel.app/",
+        github: "https://github.com/muhammad-banqusli/anime_vault",
+        technologies: [techs.typescript, techs.next, techs.tailwind, techs.framerMotion],
+    },
+    {
+        title: "Promptobia",
+        description:
+            "A blog like platform that users can login and share their prompts with others.",
+        demo: "https://promptobia-rose.vercel.app/",
+        github: "https://github.com/muhammad-banqusli/promptobia",
+        technologies: [techs.next, techs.tailwind, techs.mongodb, techs.nextAuth],
+    },
+    {
         title: "Fatura",
-        description: "A platform where users can login and add their customers and invoices to keep record of their sales, the platform provides invoice pdf and invoice links with QR codes.",
+        description:
+            "A platform where users can login and add their customers and invoices to keep record of their sales, the platform provides invoice pdf and invoice links with QR codes.",
         demo: "https://fatura-client-one.vercel.app",
         github: "",
         technologies: [
