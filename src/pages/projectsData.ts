@@ -2,6 +2,14 @@ import { techs } from "../techs";
 
 export const projectList: Project[] = [
     {
+        title: "CarHub",
+        description:
+            "Car showroom website, can be easily converted to a rent service website.",
+        demo: "https://carhub-peach.vercel.app/",
+        github: "https://github.com/muhammad-banqusli/carhub",
+        technologies: [techs.typescript, techs.next, techs.tailwind],
+    },
+    {
         title: "JavaScript Mastery Resources",
         description: "A website to show resources for web development study.",
         demo: "https://jsm-resources-nextjs.vercel.app/",
@@ -20,7 +28,12 @@ export const projectList: Project[] = [
             "A simple website using Next JS and implementing infinite loading.",
         demo: "https://anime-vault-ebon-five.vercel.app/",
         github: "https://github.com/muhammad-banqusli/anime_vault",
-        technologies: [techs.typescript, techs.next, techs.tailwind, techs.framerMotion],
+        technologies: [
+            techs.typescript,
+            techs.next,
+            techs.tailwind,
+            techs.framerMotion,
+        ],
     },
     {
         title: "Promptobia",
@@ -28,7 +41,12 @@ export const projectList: Project[] = [
             "A blog like platform that users can login and share their prompts with others.",
         demo: "https://promptobia-rose.vercel.app/",
         github: "https://github.com/muhammad-banqusli/promptobia",
-        technologies: [techs.next, techs.tailwind, techs.mongodb, techs.nextAuth],
+        technologies: [
+            techs.next,
+            techs.tailwind,
+            techs.mongodb,
+            techs.nextAuth,
+        ],
     },
     {
         title: "Fatura",
