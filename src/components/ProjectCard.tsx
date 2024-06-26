@@ -32,7 +32,7 @@ const ProjectCard = ({ project }: PropTypes) => {
             </div>
             <div className="grid grid-cols-2 border-b-2 divide-x-2">
                 <h3 className="p-2 text-start">Technologies: </h3>
-                <div className="grid grid-cols-4 place-content-center py-2 p-2 justify-items-center">{project.technologies.map(tech => <img key={tech.id} src={tech.src} alt={tech.title} title={tech.title} className="h-12 w-12 rounded-sm object-contain" />)}</div>
+                <div className="grid grid-cols-4 place-content-center py-2 p-2 justify-items-center gap-4">{project.technologies.map(tech => <img key={tech.id} src={tech.src} alt={tech.title} title={tech.title} className="h-12 w-12 rounded-sm object-contain" />)}</div>
             </div>
             <div className="grid grid-cols-2 h-full divide-x-2">
                 <p className="text-start p-2 h-full">Description: </p>
