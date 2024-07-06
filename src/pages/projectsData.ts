@@ -2,6 +2,14 @@ import { techs } from "../techs";
 
 export const projectList: Project[] = [
     {
+        title: "CobraCase",
+        description:
+            "An e-commerce app with adming dashboard where users can upload photos to print them on phone cases",
+        demo: "https://case-cobra-tawny.vercel.app",
+        github: "https://github.com/muhammad-banqusli/case-cobra",
+        technologies: [techs.typescript, techs.next, techs.tailwind, techs.shadcn, techs.headless, techs.prisma,techs.stripe, techs.kinde, techs.reactEmail,  techs.resend, techs.uploadThing],
+    },
+    {
         title: "CarHub",
         description:
             "Car showroom website, can be easily converted to a rent service website.",

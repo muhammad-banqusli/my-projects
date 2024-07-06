@@ -24,36 +24,15 @@ import shadcnLogo from "./assets/shadcn.png";
 import sanityLogo from "./assets/sanity.jpg";
 import framerMotionLogo from "./assets/framer-motion.svg";
 import nextAuthLogo from "./assets/next-auth.png";
-
-
+import headlessUILogo from "./assets/headless-ui-seeklogo.svg"
+import reactEmailLogo from "./assets/react-email.webp"
+import stripeLogo from "./assets/stripe-icon.svg"
+import resendLogo from "./assets/resend-header.webp"
+import uploadThingsLogo from "./assets/upload things.png"
+import kindeLogo from "./assets/kinde.svg"
 
 interface Techs {
-    html: Tech;
-    css: Tech;
-    javascript: Tech;
-    typescript: Tech;
-    react: Tech;
-    next: Tech;
-    tailwind: Tech;
-    nodejs: Tech;
-    mongodb: Tech;
-    mysql: Tech;
-    socket: Tech;
-    prisma: Tech;
-    nest: Tech;
-    mui: Tech;
-    reduxtk: Tech;
-    github: Tech;
-    axios: Tech;
-    dndkit: Tech;
-    zod: Tech;
-    jest: Tech;
-    gulp: Tech;
-    grunt: Tech;
-    shadcn: Tech;
-    sanity: Tech;
-    framerMotion: Tech;
-    nextAuth: Tech;
+    [key: string]: Tech;
 }
 
 export const techs: Techs = {
@@ -214,6 +193,44 @@ export const techs: Techs = {
         src: nextAuthLogo,
         columnId: 90002,
     },
+    ///
+    headlessUI: {
+        id: 27,
+        title: "Headless UI",
+        src: headlessUILogo,
+        columnId: 90002,
+    },
+    reactEmail: {
+        id: 28,
+        title: "React Email",
+        src: reactEmailLogo,
+        columnId: 90002,
+    },
+    stripe: {
+        id: 29,
+        title: "Stripe",
+        src: stripeLogo,
+        columnId: 90002,
+    },
+    resend: {
+        id: 30,
+        title: "Resend",
+        src: resendLogo,
+        columnId: 90002,
+    },
+    uploadThing: {
+        id: 31,
+        title: "Upload Things",
+        src: uploadThingsLogo,
+        columnId: 90002,
+    },
+    kinde: {
+        id: 32,
+        title: "Kinde",
+        src: kindeLogo,
+        columnId: 90002,
+    },
+
 };
 
 export const initTechs: Tech[] = [
