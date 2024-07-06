@@ -35,6 +35,7 @@ interface Techs {
     [key: string]: Tech;
 }
 
+
 export const techs: Techs = {
     html: {
         id: 1,

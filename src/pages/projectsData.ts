@@ -4,10 +4,10 @@ export const projectList: Project[] = [
     {
         title: "CobraCase",
         description:
-            "An e-commerce app with adming dashboard where users can upload photos to print them on phone cases",
+            "An e-commerce app with admin dashboard where users can upload photos to print them on phone cases.",
         demo: "https://case-cobra-tawny.vercel.app",
-        github: "https://github.com/muhammad-banqusli/case-cobra",
-        technologies: [techs.typescript, techs.next, techs.tailwind, techs.shadcn, techs.headless, techs.prisma,techs.stripe, techs.kinde, techs.reactEmail,  techs.resend, techs.uploadThing],
+        github: "https://github.com/muhammad-banqusli/carhub",
+        technologies: [techs.typescript, techs.next, techs.tailwind, techs.shadcn, techs.headlessUI, techs.prisma,techs.stripe, techs.kinde, techs.reactEmail,  techs.resend, techs.uploadThing],
     },
     {
         title: "CarHub",
