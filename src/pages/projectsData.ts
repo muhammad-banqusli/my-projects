@@ -2,6 +2,14 @@ import { techs } from "../techs";
 
 export const projectList: Project[] = [
     {
+        title: "Appetizer",
+        description:
+            "I found this website template and for practice purposes I went on and coded it in Next js and tailwind",
+        demo: "https://appetizer-resturant-website.vercel.app/",
+        github: "https://github.com/muhammad-banqusli/appetizer-resturant-website",
+        technologies: [techs.typescript, techs.next, techs.tailwind, techs.shadcn, techs.framerMotion, techs.zod],
+    },
+    {
         title: "CobraCase",
         description:
             "An e-commerce app with admin dashboard where users can upload photos to print them on phone cases.",
